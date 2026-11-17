@@ -9,22 +9,17 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const TEXT = [
-  'A book has been open on the table since the afternoon,',
-  'and the wind from the window has been trying to turn the page.',
+  'The cow has walked into the river as far as its knees and stopped.',
   '',
-  'The page lifts, and settles, and lifts again.',
-  'It rises halfway, and comes back down,',
-  'and the room is quiet between its liftings.',
+  'The water around it keeps going somewhere else. It has no reason to hurry. Where the cow stands the current has to go around, and behind it the surface flattens and gets smooth, and a leaf that was travelling fast arrives, slows, and turns in the flat place for a while.',
   '',
-  'The light moves across the table and leaves the book.',
-  'A fly walks the open seam and flies off.',
-  'The page lifts, and settles, and stays.',
+  'The tail moves. Once. Then nothing for a long time, and then once more, and the flies settle back.',
   '',
-  'By evening the wind has died,',
-  'and the page has come to rest halfway over,',
-  'and it stays there, halfway,',
-  'all through the quiet evening,',
-  'and it will not turn until the morning.',
+  'Downstream a boy has put his bicycle on the bank and is throwing stones at nothing in particular. The cow does not look up.',
+  '',
+  'The light goes the colour of tea and stays there.',
+  '',
+  'Later the boy goes home. The cow is still standing where it was, and the flat place behind it has got a little wider, and the leaf has come to rest in it.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), TEXT);
