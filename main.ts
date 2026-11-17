@@ -9,13 +9,22 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const TEXT = [
-  'A jar of honey has been sitting on the shelf above the stove since morning, and one small bubble has been rising through it all day.',
+  'A book has been open on the table since the afternoon,',
+  'and the wind from the window has been trying to turn the page.',
   '',
-  'It climbs a little, and rests, and climbs again. The honey is thick, and it does not hurry the bubble, and the bubble does not hurry the honey.',
+  'The page lifts, and settles, and lifts again.',
+  'It rises halfway, and comes back down,',
+  'and the room is quiet between its liftings.',
   '',
-  'The room goes quiet around the jar. The light moves across the shelf and leaves it. A spoon lies in the sink, and the bubble goes on climbing at its own small pace.',
+  'The light moves across the table and leaves the book.',
+  'A fly walks the open seam and flies off.',
+  'The page lifts, and settles, and stays.',
   '',
-  'By evening the bubble has reached the top and come to rest under the lid, a small clear bead, and the jar is still, and nothing needs to happen next.',
+  'By evening the wind has died,',
+  'and the page has come to rest halfway over,',
+  'and it stays there, halfway,',
+  'all through the quiet evening,',
+  'and it will not turn until the morning.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), TEXT);
