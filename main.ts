@@ -11,7 +11,11 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 const TEXT = [
   'The cow has walked into the river as far as its knees and stopped.',
   '',
-  'The water around it keeps going somewhere else. It has no reason to hurry. Where the cow stands the current has to go around, and behind it the surface flattens and gets smooth, and a leaf that was travelling fast arrives, slows, and turns in the flat place for a while.',
+  'The water around it keeps going somewhere else, in no hurry.',
+  'Where the cow stands the current has to go around,',
+  'and behind it the surface flattens and gets smooth,',
+  'and a leaf that was travelling fast arrives, slows,',
+  'and turns in the flat place for a while.',
   '',
   'The tail moves. Once. Then nothing for a long time, and then once more, and the flies settle back.',
   '',
