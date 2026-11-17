@@ -15,7 +15,7 @@ const TEXT = [
   '',
   'The room goes quiet around the jar. The light moves across the shelf and leaves it. A spoon lies in the sink, and the bubble goes on climbing at its own small pace.',
   '',
-  'By evening the bubble has reached the top and come to rest under the lid, a small clear bead, and the jar is still, and the honey holds it there.',
+  'By evening the bubble has reached the top and come to rest under the lid, a small clear bead, and the jar is still, and nothing needs to happen next.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), TEXT);
